@@ -3,7 +3,6 @@
   font-size: 20px;
   margin: 0;
   padding: 0;
-  border-bottom: solid 1px #222;
   position: relative;
   text-align: left
 }
@@ -14,15 +13,13 @@
 
 .MMM-MyWastePickup .pickup-container .waste-pickup-icon-container {
   white-space: nowrap;
-  position: absolute;
-  right : 0px;
-  top: 6px;
+  margin: 0 auto;
   line-height: 24px;
 }
 
 .MMM-MyWastePickup .pickup-container .waste-pickup-icon-container .waste-pickup-icon {
-  width: 24px;
-  height: 24px;
+  width: 200px;
+  height: 200px;
   fill: currentColor;
   vertical-align: bottom;
   display: inline;
@@ -33,8 +30,13 @@
 .MMM-MyWastePickup .pickup-container .waste-pickup-icon-container .waste-pickup-icon.recycle {
   fill: #3499D4;
 }
+.MMM-MyWastePickup .pickup-container .waste-pickup-icon-container .compost {
+  width: 185px;
+  height: 185px;
+  fill: #573C21 !important;
+}
 .MMM-MyWastePickup .pickup-container .waste-pickup-icon-container .waste-pickup-icon.compost {
-  fill: #00A651;
+  fill: rgb(97, 69, 15);
 }
 .MMM-MyWastePickup .pickup-container .waste-pickup-icon-container .waste-pickup-icon.garbage {
   fill: #787878;
